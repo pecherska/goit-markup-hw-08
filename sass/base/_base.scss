@@ -1,0 +1,19 @@
+
+@import "../base/reset";
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+
+    font-family: var(--main-font);
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
+
+img {
+    display: block;
+}

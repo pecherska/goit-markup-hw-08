@@ -1,0 +1,35 @@
+
+/*Variables*/ 
+@import "./utils/variables";
+
+/*Common stylys*/ 
+
+@import "./base/base";
+
+/*Utils*/ 
+
+@import "./utils/visually__hidden";
+
+/*Components*/ 
+
+@import "./components/container";
+@import "./components/button";
+
+@import "./components/header";
+@import "./components/mobile-menu";
+@import "./components/hero";
+@import "./components/logo";
+@import "./components/feature";
+@import "./components/work-section";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/filter";
+@import "./components/projects";
+@import "./components/footer";
+@import "./components/subscribe";
+@import "./components/backdrope";
+@import "./components/modal";
+
+
+
+

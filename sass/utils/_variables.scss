@@ -1,0 +1,25 @@
+
+/* цвет основного текста #212121 */
+/* вторичный текст цвета #757575 */
+/* белый цвет текста    #FFFFFF */
+/* акцент #2196F3  */
+/* цвет фона меню #FFFFFF  */
+/* цвет фона футера  #2F303A */
+/* цвет фона (визуално белый) #E5E5E5 */
+/* цвет фона (визуально серый) #F5F4FA  */
+
+
+:root {
+    --accent-color: #2196f3;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --primary-white-color: #ffffff;
+    --bg-color-footer: #2f303a;
+    --bg-color-primary: #e5e5e5;
+    --bg-color-secondar: #f5f4fa;
+    --timing-func: cubic-bezier(0.4, 0, 0.2, 1);
+
+    --main-font: "Roboto",sans-serif;
+    --logo-font: "Raleway",sans-serif;
+
+}
