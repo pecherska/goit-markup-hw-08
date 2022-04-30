@@ -1252,7 +1252,7 @@ img {
   padding: 40px;
   background-color: #ffffff;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .modal {
     min-width: 528px;
     min-height: 581px;
