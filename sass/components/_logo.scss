@@ -22,5 +22,15 @@
 }
 
 .nav .logo {
+    @media screen and (min-width:767px) {
     margin-right: 93px;
+    }
+
+    @media screen and (max-width:767px) {
+        margin-top: 16px;
+        margin-bottom: 16px;
+
+    }
 }
+
+

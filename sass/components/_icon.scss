@@ -1,0 +1,22 @@
+/* Navigation icons */
+
+.contacts__link {
+    display: flex;
+    align-items: center;
+    transition: color 250ms var(--timing-func);
+
+
+    &:hover .contacts__icon,
+    &:focus .contacts__icon {
+        fill: var(--accent-color);
+    }
+
+
+}
+
+.contacts__icon {
+    fill: var(--primary-text-color);
+    margin-right: 10px;
+    transition: fill 250ms var(--timing-func);
+}
+
