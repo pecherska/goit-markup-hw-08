@@ -94,7 +94,7 @@
             </li>
             <li class="contacts__item">
                 <a href="tel:+380961111111" class="contacts__link">
-                    <svg class="contacts__icon" width="10" height="16">
+                    <svg class="contacts__icon" width="10" height="14">
                         <use href="./images/sprite.svg#smartphone"></use>
                     </svg>
                     +38 096 111 11 11
@@ -169,19 +169,40 @@
             <ul class="work__list">
                 <li class="work__item">
                     <div class="work__thumb">
-                        <img src="./images/img1.jpg" alt="Разметка html кода на компютере" width="370"> 
+                        <!-- <img src="./images/img1.jpg" alt="Разметка html кода на компютере" width="370">  -->
+
+                        <picture>
+                            <source srcset="./images/img1.jpg 1x, ./images/img1_lg@2x.jpg 2x" media="(min-width:1200px)" />
+                        
+                            <img class="./images/img1.jpg" src="../images/img1_lg@2x" alt="монитор" />
+                        </picture>
+
+
                         <p class="work__overlay">Десктопные приложения</p>
                     </div>
                 </li>
                 <li class="work__item">
                     <div class="work__thumb">
-                    <img src="./images/img2.jpg" alt="Макет сайта на компютере" width="370">
+                    <!-- <img src="./images/img2.jpg" alt="Макет сайта на компютере" width="370"> -->
+                    <picture>
+                        <source srcset="./images/img2.jpg 1x, ./images/img2_lg@2x.jpg 2x" media="(min-width:1200px)" />
+                    
+                        <img class="./images/img2.jpg" src="../images/img2_lg@2x" alt="монитор" />
+                    </picture>
+
                     <p class="work__overlay">Мобильные приложения</p>
                     </div>
                 </li>
                 <li class="work__item">
                     <div class="work__thumb">
-                    <img src="./images/img.jpg" alt="Подбор цвета для дизайна" width="370">
+                    <!-- <img src="./images/img.jpg" alt="Подбор цвета для дизайна" width="370"> -->
+
+                    <picture>
+                        <source srcset="./images/img.jpg 1x, ./images/img_lg@2x.jpg 2x" media="(min-width:1200px)" />
+                    
+                        <img class="./images/img.jpg" src="../images/img_lg@2x" alt="монитор" />
+                    </picture>
+
                      <p class="work__overlay">Дизайнерские решения</p>
      
                     </div>
@@ -197,7 +218,14 @@
             <h2 class="team__title">Наша команда</h2>
             <ul class="team__list">
                 <li class="team__item">
-                    <img src="./images/igor.jpg" alt="Сотрудник компании" width="270" >
+                    <!-- <img src="./images/igor.jpg" alt="Сотрудник компании" width="270" > -->
+                    <picture>
+                        <source srcset="./images/igor.jpg 1x, ./images/igor_lg@2x.jpg 2x" media="(min-width:1200px)" />
+                        <source srcset="./images/igor_md.jpg 1x, ./images/igor_md@2x.jpg 2x" media="(min-width:768px)" />
+                        <source srcset="./images/igor_sm.jpg 1x, ./image/igor_sm@2x.jpg 2x" media="(min-width:320px)" />
+                        <img class="team__images" src="./images/igor.jpg" alt="Сотрудник компании" />
+                    </picture>
+
                     <div class="team__card">
                     <h3 class="team__name">Игорь Демьяненко</h3>
                     <p class="team__position">Product Designer</p>
@@ -237,8 +265,15 @@
 
                 </li>
                 <li class="team__item">
-                    <img src="./images/olga.jpg" alt="Сотрудник компании" width="270">
-                     <div class="team__card">
+                   <!--  <img src="./images/olga.jpg" alt="Сотрудник компании" width="270"> -->
+                <picture>
+                    <source srcset="./images/olga.jpg 1x, ./images/olga_lg@2x.jpg 2x" media="(min-width:1200px)" />
+                    <source srcset="./images/olga_md.jpg 1x, ./images/olga_md@2x.jpg 2x" media="(min-width:768px)" />
+                    <source srcset="./images/olga_sm.jpg 1x, ./image/olga_sm@2x.jpg 2x" media="(min-width:320px)" />
+                    <img class="team__images" src="./images/olga.jpg" alt="Сотрудник компании" />
+                </picture>
+                   
+                   <div class="team__card">
                     <h3 class="team__name">Ольга Репина</h3>
                     <p class="team__position">Frontend Developer</p>
                 <ul class="team__social">
@@ -274,7 +309,14 @@
                      </div>
                 </li>
                 <li class="team__item">
-                    <img src="./images/nikolay.jpg" alt="Сотрудник компании" width="270">
+                    <!-- <img src="./images/nikolay.jpg" alt="Сотрудник компании" width="270"> -->
+                    <picture>
+                        <source srcset="./images/nikolay.jpg 1x, ./images/nikolay_lg@2x.jpg 2x" media="(min-width:1200px)" />
+                        <source srcset="./images/nikolay_md.jpg 1x, ./images/nikolay_md@2x.jpg 2x" media="(min-width:768px)" />
+                        <source srcset="./images/nikolay_sm.jpg 1x, ./image/nikolay_sm@2x.jpg 2x" media="(min-width:320px)" />
+                        <img class="team__images" src="./images/nikolay.jpg" alt="Сотрудник компании" />
+                    </picture>
+                    
                     <div class="team__card">
                     <h3 class="team__name">Николай Тарасов</h3>
                     <p class="team__position">Marketing</p>
@@ -311,8 +353,15 @@
                     </div>
                 </li>
                 <li class="team__item">
-                    <img src="./images/myhailo.jpg" alt="Сотрудник компании" width="270">
-                   <div class="team__card">
+                    <!-- <img src="./images/myhailo.jpg" alt="Сотрудник компании" width="270"> -->
+                    <picture>
+                        <source srcset="./images/myhailo.jpg 1x, ./images/myhailo_lg@2x.jpg 2x" media="(min-width:1200px)" />
+                        <source srcset="./images/myhailo_md.jpg 1x, ./images/myhailo_md@2x.jpg 2x" media="(min-width:768px)" />
+                        <source srcset="./images/myhailo_sm.jpg 1x, ./image/myhailo_sm@2x.jpg 2x" media="(min-width:320px)" />
+                        <img class="team__images" src="./images/myhailo.jpg" alt="Сотрудник компании" />
+                    </picture>
+                
+                    <div class="team__card">
                     <h3 class="team__name">Михаил Ермаков</h3>
                     <p class="team__position">UI Designer</p>
                 <ul class="team__social">

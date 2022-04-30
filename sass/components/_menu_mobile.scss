@@ -17,9 +17,10 @@
     
 .header__mobile--btn {
     // display: block;
-    position: fixed;
-    top: 10px;
-    right: 15px;
+    /* position: fixed; */
+    /* top: 10px;
+    right: 15px; */
+    position: relative;
     z-index: 2;
 
     border: none;
@@ -122,7 +123,7 @@
 
 .mobile-menu__contacts--link-tel {
 
-    /* display: block; */
+    display: block;
     font-weight: 500;
     font-size: 34px;
     line-height: 1.18;
