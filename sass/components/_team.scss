@@ -61,14 +61,17 @@
     margin: 0;
 }
 
-.team__card {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+// .team__card {
+
+//     @media screen and (min-width: 1200px) {
+//     padding-top: 30px;
+//     padding-bottom: 30px;
+// }
+// }
 
 
 .team__item {
-    width: 270px;
+   
     background-color: var(--primary-white-color);
 
     // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -97,6 +100,8 @@
         }
         
         @media screen and (min-width: 1200px) {
+
+            width: 270px;
             width: calc((100% - 30px * 4) / 4);
             margin: 15px;
             padding-bottom: 30px;

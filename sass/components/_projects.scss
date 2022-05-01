@@ -1,7 +1,7 @@
 /* Projects */
 
 .project__card {
-    width: 370px;
+    
     padding: 20px 24px;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
@@ -12,7 +12,7 @@
 
 .project__link {
     display: block;
-    width: 370px;
+    
 
     transition: box-shadow 250ms var(--timing-func);
 
@@ -24,12 +24,12 @@
     }
 }
 
- .project__list {
-     display: flex;
-    flex-wrap: wrap;
-   justify-content: space-between;
-   
-}
+//   .project__list {
+// /      display: flex;
+//      flex-wrap: wrap;
+//     justify-content: space-between;
+    
+//  }
 
 .project__item {
     /* width: 370px;
@@ -42,7 +42,7 @@
     &:nth-last-child(-n + 3) {
         margin-bottom: 0;
     } */
-    width: 100%;
+  
 
     &:not(:last-child) {
 
@@ -55,6 +55,7 @@
     @media screen and (min-width: 768px) {
         width: calc((100% - 30px * 2) / 2);
       
+        margin: 15px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -63,6 +64,14 @@
     }
 }
 
+.project__list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: -15px;
+}
+}
 
 .project__card--title {
     margin-bottom: 4px;
@@ -117,3 +126,8 @@
     padding: 63px 24px 63px 24px;
 }
 
+.projects__images {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
