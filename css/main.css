@@ -778,6 +778,7 @@ img {
 
 .team__list {
   list-style: none;
+  padding: 0;
 }
 @media screen and (min-width: 768px) {
   .team__list {
@@ -906,6 +907,7 @@ img {
 @media screen and (max-width: 1199px) {
   .clients__list {
     flex-wrap: wrap;
+    padding: 0px;
   }
 }
 
@@ -1351,6 +1353,7 @@ img {
   min-height: 609px;
   padding: 40px;
   background-color: #ffffff;
+  z-index: 100;
 }
 @media screen and (min-width: 1200px) {
   .modal {
