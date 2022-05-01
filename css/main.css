@@ -261,6 +261,11 @@ img {
     display: none;
   }
 }
+.nav .header__mobile--btn.is-open {
+  position: fixed;
+  top: 22px;
+  right: 23px;
+}
 .nav .header__mobile--btn:hover .icon-menu,
 .nav .header__mobile--btn:hover .icon-close {
   fill: var(--accent-color);

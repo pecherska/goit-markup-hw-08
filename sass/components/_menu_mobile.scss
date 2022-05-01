@@ -31,12 +31,20 @@
     fill: #212121;
     transition: fill 250ms var(--timing-func);
 
+    
+
   
 
     @media screen and (min-width: 768px) {
         display: none;
     }
 
+}
+
+.header__mobile--btn.is-open {
+    position: fixed;
+    top: 22px;
+    right: 23px;
 }
 
 .header__mobile--btn:hover .icon-menu,
