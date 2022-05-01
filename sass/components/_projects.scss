@@ -108,6 +108,8 @@
     cursor: pointer;
     overflow: hidden;
     flex-grow: 1;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
 }
 
 .project__overlay {
