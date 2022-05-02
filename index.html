@@ -312,10 +312,10 @@
                 <li class="team__item">
                     <!-- <img src="./images/nikolay.jpg" alt="Сотрудник компании" width="270"> -->
                     <picture>
-                        <source srcset="./images/nikolay.jpg 1x, ./images/nikolay_lg@2x.jpg 2x" media="(min-width:1200px)" type="image/jpg" />
+                        <source srcset="./images/nikolay_lg.jpg 1x, ./images/nikolay_lg@2x.jpg 2x" media="(min-width:1200px)" type="image/jpg" />
                         <source srcset="./images/nikolay_md.jpg 1x, ./images/nikolay_md@2x.jpg 2x" media="(min-width:768px)" type="image/jpg" />
                         <source srcset="./images/nikolay_sm.jpg 1x, ./images/nikolay_sm@2x.jpg 2x" media="(min-width:320px)" type="image/jpg" />
-                        <img class="team__images" src="./images/nikolay.jpg" alt="Сотрудник компании" />
+                        <img class="team__images" src="./images/nikolay_lg.jpg" alt="Сотрудник компании" />
                     </picture>
                     
                     <div class="team__card">
@@ -531,7 +531,7 @@
 
                         <b class="modal__form--title">Оставьте свои данные, мы вам перезвоним</b> 
 
-                        <label for="username" class="modal__form--label">Имя</label>
+                        <label for="username" class="modal__form--label-title">Имя</label>
                         <div class="modal__form--label">
                         <input type="text" name="name" id="username" class="modal__form--input">
                         <svg class="modal__form--icon">
@@ -539,7 +539,7 @@
                         </svg>
                         </div>
 
-                        <label for="usertel" class="modal__form--label">Телефон</label>
+                        <label for="usertel" class="modal__form--label-title">Телефон</label>
                         <div class="modal__form--label">
                         <input type="tel" name="usertel" id="usertel" class="modal__form--input">
                         <svg class="modal__form--icon">
@@ -547,7 +547,7 @@
                         </svg>
                         </div>
 
-                        <label for="useremail" class="modal__form--label">Пошта</label>
+                        <label for="useremail" class="modal__form--label-title">Пошта</label>
                         <div class="modal__form--label">
                         <input type="email" name="user-email" id="useremail" class="modal__form--input" >
                         <svg class="modal__form--icon">
@@ -555,7 +555,7 @@
                         </svg>
                         </div>
 
-                        <label for="messages" class="modal__form--label">Комментарий</label>
+                        <label for="messages" class="modal__form--label-title">Комментарий</label>
             
                         <textarea name="messages" id="messages" placeholder="Введите текст" class="modal__form--message"></textarea>
                        
