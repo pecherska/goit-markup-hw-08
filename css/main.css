@@ -1147,14 +1147,14 @@ img {
   line-height: 1.55;
   letter-spacing: 0.03em;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .project__overlay {
     padding: 77px 24px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 481px) and (max-width: 1199px) {
   .project__overlay {
-    padding: 49px 24px 77px 24px;
+    padding: 49px 24px;
   }
 }
 @media screen and (min-width: 1200px) {
