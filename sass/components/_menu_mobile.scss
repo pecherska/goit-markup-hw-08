@@ -139,6 +139,11 @@
     color: var(--accent-color);
     margin-bottom: 32px;
     text-decoration: none;
+
+
+    @media screen and (min-width:320px) {
+        font-size: 24px;
+    }
 }
 
 .mobile-menu__contacts--link-mail {
@@ -148,6 +153,10 @@
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
+
+    @media  screen and (min-width:320px) {
+        font-size: 20px;
+    }
 }
 
 .mobile-menu__social {
@@ -169,7 +178,9 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 
-    
+    @media screen and (min-width:320px) {
+        font-size: 10px;
+    }
 }
 
 .reset {
@@ -195,6 +206,11 @@
     line-height: 1.22;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    
+    @media screen and (min-width:320px) {
+        font-size: 10px;
+    }
 
 }
 

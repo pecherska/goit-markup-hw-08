@@ -10,12 +10,20 @@
 .footer__subscribe--form {
     text-align: center;
     
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     }
 }
+
+.footer__subscribe--form {
+
+    @media  screen and (min-width:1200px) { 
+        flex-wrap: nowrap;
+    }
+}
+
 
 .footer__subscribe--email {
     

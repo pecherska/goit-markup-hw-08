@@ -6,8 +6,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
-    height: 648px;
+    width: 100%;
+    
     /* padding: 40px; */
     background-color: #ffffff;
     z-index: 100;
@@ -18,7 +18,6 @@
 
 
     
-
 
     
     @media screen and (min-width: 480px) {
@@ -38,7 +37,7 @@
     flex-direction: column;
     padding: 40px;
     @media screen and (min-width: 480px) {
-        width:450px;
+        width: 450px;
         height: 609px;
         padding: 40px;
     }
@@ -46,6 +45,8 @@
         width: 528px;
        
     }
+
+  
 }
 
 .modal__form--title {
@@ -87,6 +88,10 @@
 
 .modal__form--label-title {
     margin-bottom: 4px;
+
+    @media screen and (max-width:320px) {
+        margin-bottom: 0px;
+    }
 }
 
 .modal__form--input {
@@ -121,7 +126,9 @@
         fill: var(--accent-color);
     }
 
-   
+    @media screen and (max-width:320px) {
+        margin-bottom: 0;
+    }
     
     
     @media screen and (min-width: 480px) {
@@ -178,11 +185,22 @@
         border: 1px solid var(--accent-color);
         outline: transparent;
     }
+
+    @media screen and (max-width:320px) {
+        margin-bottom: 10px;
+    }
+
 }
+
+
+
 
 
 .modal__button {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 4px;
     right: 8px;
     width: 30px;
@@ -259,6 +277,11 @@
 
     &-input:focus+&-label::before {
         border-color: var(--accent-color);
+    }
+
+
+    @media screen and (max-width:320px) {
+        margin-bottom: 15px;
     }
 }
 

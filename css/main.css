@@ -346,6 +346,11 @@ img {
   margin-bottom: 32px;
   text-decoration: none;
 }
+@media screen and (min-width: 320px) {
+  .mobile-menu__contacts--link-tel {
+    font-size: 24px;
+  }
+}
 
 .mobile-menu__contacts--link-mail {
   font-weight: 500;
@@ -354,6 +359,11 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+}
+@media screen and (min-width: 320px) {
+  .mobile-menu__contacts--link-mail {
+    font-size: 20px;
+  }
 }
 
 .mobile-menu__social {
@@ -370,6 +380,11 @@ img {
   line-height: 1.22;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+@media screen and (min-width: 320px) {
+  .mobile-menu__social--link {
+    font-size: 10px;
+  }
 }
 
 .reset {
@@ -394,6 +409,11 @@ img {
   line-height: 1.22;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+@media screen and (min-width: 320px) {
+  .mobile-menu__social--link-res {
+    font-size: 10px;
+  }
 }
 
 /* 
@@ -543,8 +563,8 @@ img {
 /* Hero */
 .hero {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   background-color: var(--bg-color-footer);
   max-width: 1600px;
   margin-left: auto;
@@ -552,6 +572,12 @@ img {
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_sm.jpg);
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
@@ -1179,7 +1205,7 @@ img {
   /*   display: flex;
     align-items: baseline; */
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .container.footer__section {
     display: flex;
     flex-wrap: wrap;
@@ -1189,6 +1215,7 @@ img {
 @media screen and (min-width: 1200px) {
   .container.footer__section {
     align-items: baseline;
+    flex-wrap: nowrap;
     justify-content: space-between;
   }
 }
@@ -1197,6 +1224,11 @@ img {
   /*  @media screen and (min-width: 768px) and (max-width: 1199px) {
        margin-right: 165px;
    } */
+}
+@media screen and (min-width: 768px) {
+  .footer__section--thumb {
+    margin-right: 165px;
+  }
 }
 @media screen and (max-width: 1199px) {
   .footer__section--thumb {
@@ -1307,11 +1339,17 @@ img {
 .footer__subscribe--form {
   text-align: center;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1199px) {
   .footer__subscribe--form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__subscribe--form {
+    flex-wrap: nowrap;
   }
 }
 
@@ -1405,8 +1443,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
-  height: 648px;
+  width: 100%;
   /* padding: 40px; */
   background-color: #ffffff;
   z-index: 100;
@@ -1469,6 +1506,11 @@ img {
 .modal__form--label-title {
   margin-bottom: 4px;
 }
+@media screen and (max-width: 320px) {
+  .modal__form--label-title {
+    margin-bottom: 0px;
+  }
+}
 
 .modal__form--input {
   font-weight: 400;
@@ -1494,6 +1536,11 @@ img {
 }
 .modal__form--input:focus + .modal__form--icon {
   fill: var(--accent-color);
+}
+@media screen and (max-width: 320px) {
+  .modal__form--input {
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 480px) {
   .modal__form--input {
@@ -1548,9 +1595,17 @@ img {
   border: 1px solid var(--accent-color);
   outline: transparent;
 }
+@media screen and (max-width: 320px) {
+  .modal__form--message {
+    margin-bottom: 10px;
+  }
+}
 
 .modal__button {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 4px;
   right: 8px;
   width: 30px;
@@ -1616,6 +1671,11 @@ img {
 }
 .modal__form--checkbox-input:focus + .modal__form--checkbox-label::before {
   border-color: var(--accent-color);
+}
+@media screen and (max-width: 320px) {
+  .modal__form--checkbox {
+    margin-bottom: 15px;
+  }
 }
 
 .modal__form--checkbox-label {
